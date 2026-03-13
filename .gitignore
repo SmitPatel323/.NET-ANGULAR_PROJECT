@@ -1,0 +1,53 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE / Editor
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Logs
+*.log
+logs/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Root temp files
+*.tmp
+*.temp
+
+# .NET backend
+**/bin/
+**/obj/
+**/TestResults/
+**/*.rsuser
+**/*.pdb
+**/*.cache
+**/*.nupkg
+**/appsettings.*.local.json
+backend/MeetingRoomBookingApi/appsettings.Development.json
+Ok 
+# Entity Framework / generated runtime assets
+backend/MeetingRoomBookingApi/bin/
+backend/MeetingRoomBookingApi/obj/
+
+# Angular / Node frontend
+frontend/meeting-room-ui/node_modules/
+frontend/meeting-room-ui/dist/
+frontend/meeting-room-ui/.angular/
+frontend/meeting-room-ui/.cache/
+frontend/meeting-room-ui/coverage/
+frontend/meeting-room-ui/*.tsbuildinfo
+
+# Package managers
+**/npm-debug.log*
+**/yarn-debug.log*
+**/yarn-error.log*
+**/pnpm-debug.log*
